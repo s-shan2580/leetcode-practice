@@ -6,6 +6,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0001-two-sum) |
 | [0088-merge-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/s-shan2580/dsa-practice/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/s-shan2580/dsa-practice/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Hash Table
@@ -17,6 +18,7 @@
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/s-shan2580/dsa-practice/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/s-shan2580/dsa-practice/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Search
@@ -28,4 +30,8 @@
 | ------- |
 | [0088-merge-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0088-merge-sorted-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
+## Math
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/s-shan2580/dsa-practice/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
