@@ -6,6 +6,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0001-two-sum) |
 | [0088-merge-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0088-merge-sorted-array) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0189-rotate-array](https://github.com/s-shan2580/dsa-practice/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/s-shan2580/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
@@ -27,6 +28,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
