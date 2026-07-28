@@ -57,6 +57,7 @@
 | [0069-sqrtx](https://github.com/s-shan2580/dsa-practice/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/s-shan2580/dsa-practice/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/s-shan2580/dsa-practice/tree/master/0231-power-of-two) |
+| [0258-add-digits](https://github.com/s-shan2580/dsa-practice/tree/master/0258-add-digits) |
 | [0263-ugly-number](https://github.com/s-shan2580/dsa-practice/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
 ## Divide and Conquer
@@ -79,9 +80,14 @@
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/s-shan2580/dsa-practice/tree/master/0258-add-digits) |
 | [1929-concatenation-of-array](https://github.com/s-shan2580/dsa-practice/tree/master/1929-concatenation-of-array) |
 ## Recursion
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/s-shan2580/dsa-practice/tree/master/0231-power-of-two) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/s-shan2580/dsa-practice/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
