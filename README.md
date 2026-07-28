@@ -16,6 +16,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0704-binary-search](https://github.com/s-shan2580/dsa-practice/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/s-shan2580/dsa-practice/tree/master/0852-peak-index-in-a-mountain-array) |
+| [1470-shuffle-the-array](https://github.com/s-shan2580/dsa-practice/tree/master/1470-shuffle-the-array) |
 ## Hash Table
 |  |
 | ------- |
