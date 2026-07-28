@@ -17,6 +17,7 @@
 | [0704-binary-search](https://github.com/s-shan2580/dsa-practice/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/s-shan2580/dsa-practice/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1470-shuffle-the-array](https://github.com/s-shan2580/dsa-practice/tree/master/1470-shuffle-the-array) |
+| [1929-concatenation-of-array](https://github.com/s-shan2580/dsa-practice/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -71,4 +72,8 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/s-shan2580/dsa-practice/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
