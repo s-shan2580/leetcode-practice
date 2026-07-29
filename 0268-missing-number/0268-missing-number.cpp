@@ -1,22 +1,12 @@
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) {
-        int n=nums.size();
-        sort(nums.begin(),nums.end());
-        int l=0;
-        int r=n-1;
-        int res=n;
-        while(l<=r){
-            int mid=l+(r-l)/2;
-            if(nums[mid]>mid){
-                res=mid;
-                r=mid-1;
-            }
-            else{
-                l=mid+1;
-            }
-
+    int missingNumber(vector<int>& arr) {
+        int mx=arr.size();
+        int sum_reqd=(mx*(mx+1))/2;
+        int sum=0;
+        for(int x:arr){
+            sum+=x;
         }
-        return res;
+        return sum_reqd-sum;
     }
 };
