@@ -1,17 +1,12 @@
 class Solution {
 public:
-    vector<int> getConcatenation(vector<int>& nums) {
-        const int n=2*nums.size();
-        vector<int>temp(n,0);
+    vector<int> getConcatenation(vector<int>& arr) {
+        int n=arr.size();
+        vector<int>res(2*n,0);
         for(int i=0;i<n;i++){
-            if(i<n/2){
-                temp[i]=nums[i];
-            }
-            else{
-                temp[i]=nums[i-n/2];
-            }
-
+            res[i]=arr[i];
+            res[n+i]=arr[i];
         }
-        return temp;
+        return res;
     }
 };
