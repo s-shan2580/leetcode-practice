@@ -9,6 +9,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/s-shan2580/dsa-practice/tree/master/0035-search-insert-position) |
 | [0088-merge-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/s-shan2580/dsa-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/s-shan2580/dsa-practice/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/s-shan2580/dsa-practice/tree/master/0189-rotate-array) |
@@ -117,4 +118,8 @@
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/s-shan2580/dsa-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
