@@ -19,6 +19,7 @@
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/s-shan2580/dsa-practice/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0485-max-consecutive-ones](https://github.com/s-shan2580/dsa-practice/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/s-shan2580/dsa-practice/tree/master/0704-binary-search) |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/s-shan2580/dsa-practice/tree/master/0852-peak-index-in-a-mountain-array) |
