@@ -156,4 +156,8 @@
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/s-shan2580/dsa-practice/tree/master/0075-sort-colors) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/s-shan2580/dsa-practice/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
