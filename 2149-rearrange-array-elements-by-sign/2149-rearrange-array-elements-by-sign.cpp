@@ -1,22 +1,28 @@
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& arr) {
-        int n=arr.size()/2;
-        vector<int> a;
-        vector<int> b;
+        int n = arr.size();
+        int i = 0; // Tracks next positive element
+        int j = 0; // Tracks next negative element
+        int k = 0;
         vector<int> res;
-
-        for(int i=0; i<2*n; i++){
-            if(arr[i]>=0) a.push_back(arr[i]);
-            else b.push_back(arr[i]);
-        }
-
-        for(int i=0; i<n; i++){
-            res.push_back(a[i]);
-            res.push_back(b[i]);
+        
+        while (k < n) {
+            if (k % 2 == 0) {
+                while (i < n && arr[i] < 0) i++;
+                res.push_back(arr[i]);
+                i++; // Advance past the matched positive
+            } else {
+                while (j < n && arr[j] > 0) j++;
+                res.push_back(arr[j]);
+                j++; // Advance past the matched negative
+            }
+            k++; // Advance the main counter
         }
 
         return res;
-
     }
 };
