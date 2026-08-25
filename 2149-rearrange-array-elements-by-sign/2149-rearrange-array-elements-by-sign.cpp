@@ -1,22 +1,25 @@
 class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& arr) {
-        int n=arr.size();
-        int posidx=0;
-        int negidx=1;
-        vector<int> res(n,0);
-        for(int x: arr){
-            if(x>=0){
-                res[posidx]=x;
-                posidx +=2;
+        int n = arr.size();
+        int i = 0; // Tracks next positive element
+        int j = 0; // Tracks next negative element
+        int k = 0;
+        vector<int> res;
+        
+        while (k < n) {
+            if (k % 2 == 0) {
+                while (i < n && arr[i] < 0) i++;
+                res.push_back(arr[i]);
+                i++; // Advance past the matched positive
+            } else {
+                while (j < n && arr[j] > 0) j++;
+                res.push_back(arr[j]);
+                j++; // Advance past the matched negative
             }
-            else{
-                res[negidx]=x;
-                negidx +=2;
-            }
+            k++; // Advance the main counter
         }
 
         return res;
-
     }
 };
