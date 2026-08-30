@@ -4,25 +4,49 @@ public:
         int m = matrix.size();
         int n = matrix[0].size();
 
-        vector<int> row(m, 0);
-        vector<int> col(n, 0);
+        int col0 = 0;
 
-        // Find all zero positions
+        // Step 1: Store markers
         for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
+
+            // Check first column
+            if (matrix[i][0] == 0)
+                col0 = 1;
+
+            for (int j = 1; j < n; j++) {
+
                 if (matrix[i][j] == 0) {
-                    row[i] = 1;
-                    col[j] = 1;
+                    // Mark row
+                    matrix[i][0] = 0;
+
+                    // Mark column
+                    matrix[0][j] = 0;
                 }
             }
         }
 
-        // Set rows and columns to zero
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (row[i] || col[j])
+        // Step 2: Use markers to set inner matrix
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+
+                if (matrix[i][0] == 0 ||
+                    matrix[0][j] == 0) {
+
                     matrix[i][j] = 0;
+                }
             }
+        }
+
+        // Step 3: Handle first row
+        if (matrix[0][0] == 0) {
+            for (int j = 0; j < n; j++)
+                matrix[0][j] = 0;
+        }
+
+        // Step 4: Handle first column
+        if (col0 == 1) {
+            for (int i = 0; i < m; i++)
+                matrix[i][0] = 0;
         }
     }
 };
