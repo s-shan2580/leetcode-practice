@@ -1,24 +1,33 @@
 class Solution {
 public:
-    int findMin(vector<int>& nums) {
-        int start = 0;
-        int end = nums.size() - 1;
+    int findMin(vector<int>& arr) {
+         int n = arr.size();
 
-        while (start < end) {
+        int start = 0;
+        int end = n - 1;
+        int ans = arr[0];
+
+        while (start <= end) {
+
             int mid = start + (end - start) / 2;
 
-            // If mid element is greater than the rightmost element,
-            // the minimum lies in the right half
-            if (nums[mid] > nums[end]) {
-                start = mid + 1;
-            } 
-            // Otherwise, the minimum lies in the left half (including mid)
-            else {
-                end = mid;
+            if(arr[start] <= arr[end]){
+                ans=min(ans,arr[start]);
+                break;
             }
-        }
 
-        // start == end pointing to the minimum element
-        return nums[start];
+            if (arr[start] <= arr[mid]) {
+
+                ans =min(ans, arr[start]); 
+                start = mid + 1;
+            }
+
+            else{
+                end = mid ;
+            }
+
+        }  
+
+        return ans;
     }
 };
