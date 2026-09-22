@@ -2,28 +2,28 @@ class Solution {
 public:
     int singleNonDuplicate(vector<int>& arr) {
         int n = arr.size();
+
         int start = 0;
-        int end = n-1;
+        int end = n - 1;
 
-        if(n==1) return arr[0];
+        while (start < end) {
 
-        while(start <= end){
+            int mid = start + (end - start) / 2;
 
-            if(arr[start] == arr[start+1]){
-                start = start + 2;
+            // Make mid even
+            if (mid % 2 == 1)
+                mid--;
+
+            if (arr[mid] == arr[mid + 1]) {
+                // Pair is complete, single is on the right
+                start = mid + 2;
             }
-            else{
-                return arr[start];
-            }
-
-            if(arr[end] == arr[end - 1]){
-                end = end - 2;
-            }
-            else{
-                return arr[end];
+            else {
+                // Pair is broken, single is at mid or left
+                end = mid;
             }
         }
 
-        return -1;
+        return arr[start];
     }
 };
