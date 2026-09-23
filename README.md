@@ -188,4 +188,8 @@
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/s-shan2580/dsa-practice/tree/master/0073-set-matrix-zeroes) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/s-shan2580/dsa-practice/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
