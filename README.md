@@ -42,6 +42,7 @@
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/s-shan2580/dsa-practice/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1929-concatenation-of-array](https://github.com/s-shan2580/dsa-practice/tree/master/1929-concatenation-of-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/s-shan2580/dsa-practice/tree/master/2149-rearrange-array-elements-by-sign) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/s-shan2580/dsa-practice/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Hash Table
 |  |
 | ------- |
@@ -107,6 +108,7 @@
 | [0258-add-digits](https://github.com/s-shan2580/dsa-practice/tree/master/0258-add-digits) |
 | [0263-ugly-number](https://github.com/s-shan2580/dsa-practice/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/s-shan2580/dsa-practice/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Divide and Conquer
 |  |
 | ------- |
