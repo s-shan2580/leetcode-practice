@@ -172,6 +172,7 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/s-shan2580/dsa-practice/tree/master/0242-valid-anagram) |
+| [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
 ## Sliding Window
 |  |
 | ------- |
@@ -204,4 +205,12 @@
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/s-shan2580/dsa-practice/tree/master/0069-sqrtx) |
+## Stack
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
