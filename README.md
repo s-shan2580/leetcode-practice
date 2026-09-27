@@ -53,6 +53,7 @@
 | [0073-set-matrix-zeroes](https://github.com/s-shan2580/dsa-practice/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/s-shan2580/dsa-practice/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/s-shan2580/dsa-practice/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/s-shan2580/dsa-practice/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/s-shan2580/dsa-practice/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/s-shan2580/dsa-practice/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
@@ -176,6 +177,7 @@
 | ------- |
 | [0014-longest-common-prefix](https://github.com/s-shan2580/dsa-practice/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/s-shan2580/dsa-practice/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/s-shan2580/dsa-practice/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/s-shan2580/dsa-practice/tree/master/0242-valid-anagram) |
 | [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1903-largest-odd-number-in-string](https://github.com/s-shan2580/dsa-practice/tree/master/1903-largest-odd-number-in-string) |
