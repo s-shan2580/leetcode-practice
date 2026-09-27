@@ -1,44 +1,24 @@
 class Solution {
 public:
-    string findcommon(string s1, string s2){
-        int n= s1.length();
-        int m= s2.length();
-        int i=0, j=0;
-        string ans= "";
 
-        while(i<n || j<m){
-            if(s1[i]==s2[j]){
-                ans.push_back(s1[i]);
-                i++;
-                j++;
-            }
-            else{
-                break;
-            }
+    string findcommon(string s1, string s2) {
+        int i = 0;
+
+        while(i < s1.length() && i < s2.length() && s1[i] == s2[i]) {
+            i++;
         }
 
-        if(!ans.empty()) return ans;
-        else return "";
+        return s1.substr(0, i);
     }
 
     string longestCommonPrefix(vector<string>& strs) {
-        int n= strs.size();
+        string ans = strs[0];
 
-        if(n==1) return strs[0];
-
-        if(n==2) return findcommon(strs[0], strs[1]);
-
-        int i= 2;
-
-        string ans = findcommon(strs[0], strs[1]);
-        
-        while(i<n){
+        for(int i = 1; i < strs.size(); i++) {
             ans = findcommon(ans, strs[i]);
-            if(ans=="") return "";
 
-            else{
-                i++;
-            }
+            if(ans.empty())
+                return "";
         }
 
         return ans;
