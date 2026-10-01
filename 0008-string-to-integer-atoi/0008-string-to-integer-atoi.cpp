@@ -1,75 +1,53 @@
 class Solution {
 public:
-
     int myAtoi(string s) {
-
-        long long ans = 0;
-
-        bool dig_seen = false;
-        bool sign_seen = false;
-
-        int sign = 1;
-
-        for(char c : s) {
-
-            // Leading spaces
-            if(c == ' ') {
-
-                if(!dig_seen && !sign_seen)
-                    continue;
-                else
-                    break;
-            }
-
-            // Sign
-            if(c == '-' || c == '+') {
-
-                if(!sign_seen && !dig_seen) {
-
-                    sign_seen = true;
-
-                    if(c == '-')
-                        sign = -1;
-                }
-                else {
-                    break;
-                }
-            }
-
-            // Digit
-            else if(c >= '0' && c <= '9') {
-
-                dig_seen = true;
-
-                int digit = c - '0';
-
-                // Check overflow BEFORE multiplying
-                if(ans > INT_MAX / 10 ||
-                   (ans == INT_MAX / 10 && digit > INT_MAX % 10)) {
-
-                    if(sign == -1)
-                        return INT_MIN;
-                    else
-                        return INT_MAX;
-                }
-
-                ans = ans * 10 + digit;
-            }
-
-            // Anything else
-            else {
-                break;
-            }
+        if (s.empty()) {
+            return 0;
         }
-
-        ans *= sign;
-
-        if(ans < INT_MIN)
-            return INT_MIN;
-
-        if(ans > INT_MAX)
-            return INT_MAX;
-
-        return (int)ans;
+        
+        // Use standard library constants
+        const long long MAX_INT = INT_MAX;
+        const long long MIN_INT = INT_MIN;
+        
+        int i = 0;
+        int n = s.length();
+        
+        // Step 1: Skip leading whitespace
+        while (i < n && s[i] == ' ') {
+            i++;
+        }
+        
+        // Check if we've reached the end
+        if (i == n) {
+            return 0;
+        }
+        
+        // Step 2: Check for sign
+        int sign = 1;
+        if (s[i] == '+') {
+            i++;
+        } else if (s[i] == '-') {
+            sign = -1;
+            i++;
+        }
+        
+        // Step 3: Read digits and convert
+        long long res = 0;
+        while (i < n && isdigit(s[i])) {
+            int digit = s[i] - '0';
+            res = res * 10 + digit;
+            
+            if (sign * res <= INT_MIN) {
+                return INT_MIN;
+            }
+            if (sign * res >= INT_MAX) {
+                return INT_MAX;
+            }
+            
+            i++;
+        }
+        
+        // Step 4: Apply sign and return
+        return static_cast<int>(res * sign);     
     }
 };
