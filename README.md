@@ -63,6 +63,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/s-shan2580/dsa-practice/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/s-shan2580/dsa-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
+| [1624-largest-substring-between-two-equal-characters](https://github.com/s-shan2580/dsa-practice/tree/master/1624-largest-substring-between-two-equal-characters) |
 ## Two Pointers
 |  |
 | ------- |
@@ -195,6 +196,7 @@
 | [0796-rotate-string](https://github.com/s-shan2580/dsa-practice/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1624-largest-substring-between-two-equal-characters](https://github.com/s-shan2580/dsa-practice/tree/master/1624-largest-substring-between-two-equal-characters) |
 | [1903-largest-odd-number-in-string](https://github.com/s-shan2580/dsa-practice/tree/master/1903-largest-odd-number-in-string) |
 ## Sliding Window
 |  |
