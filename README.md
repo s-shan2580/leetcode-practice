@@ -77,6 +77,7 @@
 | [0189-rotate-array](https://github.com/s-shan2580/dsa-practice/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/s-shan2580/dsa-practice/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0876-middle-of-the-linked-list](https://github.com/s-shan2580/dsa-practice/tree/master/0876-middle-of-the-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/s-shan2580/dsa-practice/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Binary Search
 |  |
@@ -170,6 +171,7 @@
 | ------- |
 | [0237-delete-node-in-a-linked-list](https://github.com/s-shan2580/dsa-practice/tree/master/0237-delete-node-in-a-linked-list) |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
+| [0876-middle-of-the-linked-list](https://github.com/s-shan2580/dsa-practice/tree/master/0876-middle-of-the-linked-list) |
 ## Design
 |  |
 | ------- |
