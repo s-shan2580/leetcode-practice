@@ -122,6 +122,7 @@
 | [0007-reverse-integer](https://github.com/s-shan2580/dsa-practice/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/s-shan2580/dsa-practice/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/s-shan2580/dsa-practice/tree/master/0013-roman-to-integer) |
+| [0050-powx-n](https://github.com/s-shan2580/dsa-practice/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/s-shan2580/dsa-practice/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/s-shan2580/dsa-practice/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/s-shan2580/dsa-practice/tree/master/0231-power-of-two) |
@@ -160,6 +161,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/s-shan2580/dsa-practice/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/s-shan2580/dsa-practice/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/s-shan2580/dsa-practice/tree/master/0231-power-of-two) |
 ## Number Theory
