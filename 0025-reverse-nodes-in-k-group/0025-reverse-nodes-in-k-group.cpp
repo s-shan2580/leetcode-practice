@@ -1,24 +1,15 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
-    ListNode* rev(ListNode* head){
+    ListNode* reverse(ListNode* head) {
         ListNode* prev = nullptr;
         ListNode* curr = head;
 
-        while(curr){
-            ListNode* nxt = curr->next;
+        while (curr) {
+            ListNode* nextNode = curr->next;
             curr->next = prev;
+
             prev = curr;
-            curr = nxt;
+            curr = nextNode;
         }
 
         return prev;
@@ -26,38 +17,50 @@ public:
 
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* temp = head;
-        ListNode* prevLastlink = nullptr;
+        ListNode* prevLast = nullptr;
 
-        while(temp){
-
+        while (temp) {
+            // Step 1: Find the kth node from temp
             ListNode* kthNode = temp;
 
-            for(int i = 1; i<k && kthNode; i++){
+            for (int i = 1; i < k && kthNode; i++) {
                 kthNode = kthNode->next;
             }
 
-            if(kthNode==nullptr){
-                if(prevLastlink){
-                    prevLastlink->next = temp;
-                }
+            // Step 2: If fewer than k nodes remain, keep them unchanged
+            if (kthNode == nullptr) {
+                if (prevLast)
+                    prevLast->next = temp;
                 break;
             }
 
-            ListNode* nxtnode = kthNode->next;
+            // Step 3: Save the start of the next group
+            ListNode* nextNode = kthNode->next;
+
+            // Step 4: Detach the current group
             kthNode->next = nullptr;
 
-            rev(temp);
+            // Step 5: Reverse the current group
+            // kthNode becomes its new head
+            // temp becomes its new tail
+            reverse(temp);
 
-            if(prevLastlink == nullptr){
+            // Step 6: Attach the reversed group
+            if (prevLast == nullptr) {
+                // First group: update the list's head
                 head = kthNode;
-            }
-            else{
-                prevLastlink->next = kthNode;
+            } else {
+                // Other groups: connect the previous group's tail
+                // to the current group's new head
+                prevLast->next = kthNode;
             }
 
-            prevLastlink = temp;
-            temp = nxtnode;
+            // Step 7: Store the current group's tail
+            // so it can connect to the next reversed group
+            prevLast = temp;
 
+            // Step 8: Move to the next group
+            temp = nextNode;
         }
 
         return head;
