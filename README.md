@@ -205,6 +205,7 @@
 ## Design
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/s-shan2580/dsa-practice/tree/master/0225-implement-stack-using-queues) |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
 ## Hash Function
 |  |
@@ -269,6 +270,7 @@
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/s-shan2580/dsa-practice/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/s-shan2580/dsa-practice/tree/master/0234-palindrome-linked-list) |
 | [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -312,4 +314,8 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/s-shan2580/dsa-practice/tree/master/0148-sort-list) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/s-shan2580/dsa-practice/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
