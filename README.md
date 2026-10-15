@@ -32,6 +32,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0410-split-array-largest-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/s-shan2580/dsa-practice/tree/master/0485-max-consecutive-ones) |
+| [0496-next-greater-element-i](https://github.com/s-shan2580/dsa-practice/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/s-shan2580/dsa-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/s-shan2580/dsa-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/s-shan2580/dsa-practice/tree/master/0643-maximum-average-subarray-i) |
@@ -66,6 +67,7 @@
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/s-shan2580/dsa-practice/tree/master/0451-sort-characters-by-frequency) |
+| [0496-next-greater-element-i](https://github.com/s-shan2580/dsa-practice/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/s-shan2580/dsa-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
 | [1624-largest-substring-between-two-equal-characters](https://github.com/s-shan2580/dsa-practice/tree/master/1624-largest-substring-between-two-equal-characters) |
@@ -281,6 +283,7 @@
 | [0225-implement-stack-using-queues](https://github.com/s-shan2580/dsa-practice/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/s-shan2580/dsa-practice/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/s-shan2580/dsa-practice/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/s-shan2580/dsa-practice/tree/master/0496-next-greater-element-i) |
 | [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Bracket Sequences
@@ -329,4 +332,8 @@
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/s-shan2580/dsa-practice/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/s-shan2580/dsa-practice/tree/master/0232-implement-queue-using-stacks) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/s-shan2580/dsa-practice/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
