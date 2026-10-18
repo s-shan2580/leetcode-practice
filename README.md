@@ -40,6 +40,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/s-shan2580/dsa-practice/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/s-shan2580/dsa-practice/tree/master/0704-binary-search) |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
+| [0735-asteroid-collision](https://github.com/s-shan2580/dsa-practice/tree/master/0735-asteroid-collision) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/s-shan2580/dsa-practice/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/s-shan2580/dsa-practice/tree/master/0875-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/s-shan2580/dsa-practice/tree/master/0907-sum-of-subarray-minimums) |
@@ -174,6 +175,7 @@
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/s-shan2580/dsa-practice/tree/master/0258-add-digits) |
+| [0735-asteroid-collision](https://github.com/s-shan2580/dsa-practice/tree/master/0735-asteroid-collision) |
 | [1929-concatenation-of-array](https://github.com/s-shan2580/dsa-practice/tree/master/1929-concatenation-of-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/s-shan2580/dsa-practice/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Recursion
@@ -292,6 +294,7 @@
 | [0234-palindrome-linked-list](https://github.com/s-shan2580/dsa-practice/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/s-shan2580/dsa-practice/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/s-shan2580/dsa-practice/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/s-shan2580/dsa-practice/tree/master/0907-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
