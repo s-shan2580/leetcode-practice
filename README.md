@@ -52,6 +52,7 @@
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/s-shan2580/dsa-practice/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1929-concatenation-of-array](https://github.com/s-shan2580/dsa-practice/tree/master/1929-concatenation-of-array) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/s-shan2580/dsa-practice/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2104-sum-of-subarray-ranges](https://github.com/s-shan2580/dsa-practice/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/s-shan2580/dsa-practice/tree/master/2149-rearrange-array-elements-by-sign) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/s-shan2580/dsa-practice/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Hash Table
@@ -298,6 +299,7 @@
 | [0907-sum-of-subarray-minimums](https://github.com/s-shan2580/dsa-practice/tree/master/0907-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/s-shan2580/dsa-practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2104-sum-of-subarray-ranges](https://github.com/s-shan2580/dsa-practice/tree/master/2104-sum-of-subarray-ranges) |
 ## Bracket Sequences
 |  |
 | ------- |
@@ -351,4 +353,5 @@
 | [0496-next-greater-element-i](https://github.com/s-shan2580/dsa-practice/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/s-shan2580/dsa-practice/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/s-shan2580/dsa-practice/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/s-shan2580/dsa-practice/tree/master/2104-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
