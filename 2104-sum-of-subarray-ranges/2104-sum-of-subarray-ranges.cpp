@@ -1,101 +1,100 @@
-#include <vector>
-#include <stack>
-
-using namespace std;
-
 class Solution {
 public:
-    // Next Smaller to Left (Index)
-    vector<int> get_nsl(vector<int>& arr, int n) {
-        stack<int> st;
-        vector<int> nsl(n);
-        for (int i = 0; i < n; i++) {
-            while (!st.empty() && arr[st.top()] >= arr[i]) {
-                st.pop();
+    vector<int> get_nbl(vector<int>& arr){
+        int n = arr.size();
+        stack<int> stk;
+        vector<int> nbl(n);
+
+        for(int i=0; i<n; i++){
+            while(!stk.empty() && arr[i]>=arr[stk.top()]){
+                stk.pop();
             }
-            nsl[i] = st.empty() ? -1 : st.top();
-            st.push(i);
+            nbl[i] = stk.empty() ? -1 : stk.top();
+            stk.push(i);
         }
+
+        return nbl;
+    }
+
+    vector<int> get_nbr(vector<int>& arr){
+        int n = arr.size();
+        stack<int> stk;
+        vector<int> nbr(n);
+
+        for(int i=n-1; i>=0; i--){
+            while(!stk.empty() && arr[i]>arr[stk.top()]){
+                stk.pop();
+            }
+            nbr[i] = stk.empty() ? n : stk.top();
+            stk.push(i);
+        }
+
+        return nbr;
+    }
+
+    vector<int> get_nsl(vector<int>& arr){
+        int n = arr.size();
+        stack<int> stk;
+        vector<int> nsl(n);
+
+        for(int i=0; i<n; i++){
+            while(!stk.empty() && arr[i]<=arr[stk.top()]){
+                stk.pop();
+            }
+            nsl[i] = stk.empty() ? -1 : stk.top();
+            stk.push(i);
+        }
+
         return nsl;
     }
 
-    // Next Smaller to Right (Index)
-    vector<int> get_nsr(vector<int>& arr, int n) {
-        stack<int> st;
+    vector<int> get_nsr(vector<int>& arr){
+        int n = arr.size();
+        stack<int> stk;
         vector<int> nsr(n);
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.empty() && arr[st.top()] > arr[i]) {
-                st.pop();
+
+        for(int i=n-1; i>=0; i--){
+            while(!stk.empty() && arr[i]<arr[stk.top()]){
+                stk.pop();
             }
-            nsr[i] = st.empty() ? n : st.top();
-            st.push(i);
+            nsr[i] = stk.empty() ? n : stk.top();
+            stk.push(i);
         }
+
         return nsr;
     }
 
-    // Next Greater to Left (Index)
-    vector<int> get_ngl(vector<int>& arr, int n) {
-        stack<int> st;
-        vector<int> ngl(n);
-        for (int i = 0; i < n; i++) {
-            while (!st.empty() && arr[st.top()] <= arr[i]) {
-                st.pop();
-            }
-            ngl[i] = st.empty() ? -1 : st.top();
-            st.push(i);
-        }
-        return ngl;
-    }
-
-    // Next Greater to Right (Index)
-    vector<int> get_ngr(vector<int>& arr, int n) {
-        stack<int> st;
-        vector<int> ngr(n);
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.empty() && arr[st.top()] < arr[i]) {
-                st.pop();
-            }
-            ngr[i] = st.empty() ? n : st.top();
-            st.push(i);
-        }
-        return ngr;
-    }
-
-    long long sumSubarrayMins(vector<int>& arr) {
+    long long subarr_maxsum(vector<int>& arr){
         int n = arr.size();
+        vector<int> nbl = get_nbl(arr);
+        vector<int> nbr = get_nbr(arr);
         long long sum = 0;
 
-        vector<int> nsl = get_nsl(arr, n);
-        vector<int> nsr = get_nsr(arr, n);
+        for(int i=0; i<n; i++){
+            long long ls = i - nbl[i];
+            long long rs = nbr[i] - i;
+            sum += ls * rs * arr[i];
+        }
 
-        for (int i = 0; i < n; i++) {
+        return sum;
+    }
+
+    long long subarr_minsum(vector<int>& arr){
+        int n = arr.size();
+        vector<int> nsl = get_nsl(arr);
+        vector<int> nsr = get_nsr(arr);
+        long long sum = 0;
+
+        for(int i=0; i<n; i++){
             long long ls = i - nsl[i];
             long long rs = nsr[i] - i;
-            long long total_subarrays = ls * rs;
-            sum += (long long)arr[i] * total_subarrays;
+            sum += ls * rs * arr[i];
         }
 
         return sum;
     }
 
-    long long sumSubarrayMaxs(vector<int>& arr) {
-        int n = arr.size();
-        long long sum = 0;
-
-        vector<int> ngl = get_ngl(arr, n);
-        vector<int> ngr = get_ngr(arr, n);
-
-        for (int i = 0; i < n; i++) {
-            long long ls = i - ngl[i];
-            long long rs = ngr[i] - i;
-            long long total_subarrays = ls * rs;
-            sum += (long long)arr[i] * total_subarrays;
-        }
-
-        return sum;
-    }
-
-    long long subArrayRanges(vector<int>& nums) {
-        return sumSubarrayMaxs(nums) - sumSubarrayMins(nums);
+    long long subArrayRanges(vector<int>& arr) {
+        return subarr_maxsum(arr) - subarr_minsum(arr);
     }
 };
