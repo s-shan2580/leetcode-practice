@@ -8,34 +8,34 @@ public:
 
         while (start <= end) {
 
-    int mid = start + (end - start) / 2;
+            int mid = start + (end - start) / 2;
 
-    if (arr[mid] == x)
-        return true;
+            if (arr[mid] == x)
+                return true;
 
-    if (arr[start] == arr[mid] && arr[mid] == arr[end]) {
-        start++;
-        end--;
-    }
+            if (arr[start] == arr[mid] && arr[mid] == arr[end]) {
+                start++;
+                end--;
+            }
 
-    else if (arr[mid] <= arr[end]) {
-        // Right half is sorted
+            else if (arr[mid] <= arr[end]) {
+                // Right half is sorted
 
-        if (arr[mid] <= x && x <= arr[end])
-            start = mid + 1;
-        else
-            end = mid - 1;
-    }
+                if (arr[mid] <= x && x <= arr[end])
+                    start = mid + 1;
+                else
+                    end = mid - 1;
+            }
 
-    else {
-        // Left half is sorted
+            else {
+                // Left half is sorted
 
-        if (arr[start] <= x && x <= arr[mid])
-            end = mid - 1;
-        else
-            start = mid + 1;
-    }
-}
+                if (arr[start] <= x && x <= arr[mid])
+                    end = mid - 1;
+                else
+                    start = mid + 1;
+            }
+        }
 
         return false;
     }
