@@ -4,7 +4,7 @@ public:
         int n = arr.size();
 		int start = 0;
 		int end = n - 1;
-		int ans = -1;
+		int ans = n;  // case when all elements smaller than target
 		
 		while (start <= end) {
 			int mid = start + (end - start)/2 ;
@@ -22,7 +22,7 @@ public:
 				
 			}
 		}
-		if(start>end) return start;
-		else return ans;
+		
+		return ans;
     }
 };
