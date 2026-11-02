@@ -1,19 +1,26 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int maxcount = 0;
-        string temp = "";
 
-        for (char c : s) {
-            auto pos = temp.find(c);
-            if (pos != string::npos) {
-                // Drop everything up to and including the duplicate character
-                temp = temp.substr(pos + 1);
+        vector<int> lastseen(256, -1);
+        int l = 0;
+        int maxlen = 0;
+
+        for(int r = 0; r<s.length(); r++){
+
+            char c = s[r];
+
+            if(lastseen[(unsigned char)c] >= l){
+                l = lastseen[(unsigned char)c] + 1;
             }
-            temp.push_back(c);
-            maxcount = max(maxcount, (int)temp.length());
+
+            lastseen[(unsigned char)c] = r;
+
+            maxlen = max(maxlen, r-l+1);
+
         }
 
-        return maxcount;
+        return maxlen;
+
     }
 };
