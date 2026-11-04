@@ -45,6 +45,7 @@
 | [0875-koko-eating-bananas](https://github.com/s-shan2580/dsa-practice/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/s-shan2580/dsa-practice/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/s-shan2580/dsa-practice/tree/master/0907-sum-of-subarray-minimums) |
+| [0930-binary-subarrays-with-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/s-shan2580/dsa-practice/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/s-shan2580/dsa-practice/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/s-shan2580/dsa-practice/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -80,6 +81,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/s-shan2580/dsa-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
 | [0904-fruit-into-baskets](https://github.com/s-shan2580/dsa-practice/tree/master/0904-fruit-into-baskets) |
+| [0930-binary-subarrays-with-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0930-binary-subarrays-with-sum) |
 | [1624-largest-substring-between-two-equal-characters](https://github.com/s-shan2580/dsa-practice/tree/master/1624-largest-substring-between-two-equal-characters) |
 ## Two Pointers
 |  |
@@ -269,12 +271,14 @@
 | [0424-longest-repeating-character-replacement](https://github.com/s-shan2580/dsa-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/s-shan2580/dsa-practice/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/s-shan2580/dsa-practice/tree/master/0904-fruit-into-baskets) |
+| [0930-binary-subarrays-with-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/s-shan2580/dsa-practice/tree/master/1004-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/s-shan2580/dsa-practice/tree/master/0560-subarray-sum-equals-k) |
+| [0930-binary-subarrays-with-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/s-shan2580/dsa-practice/tree/master/1004-max-consecutive-ones-iii) |
 ## Quicksort
 |  |
