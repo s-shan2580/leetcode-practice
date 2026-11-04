@@ -43,6 +43,7 @@
 | [0735-asteroid-collision](https://github.com/s-shan2580/dsa-practice/tree/master/0735-asteroid-collision) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/s-shan2580/dsa-practice/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/s-shan2580/dsa-practice/tree/master/0875-koko-eating-bananas) |
+| [0904-fruit-into-baskets](https://github.com/s-shan2580/dsa-practice/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/s-shan2580/dsa-practice/tree/master/0907-sum-of-subarray-minimums) |
 | [1004-max-consecutive-ones-iii](https://github.com/s-shan2580/dsa-practice/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/s-shan2580/dsa-practice/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -77,6 +78,7 @@
 | [0496-next-greater-element-i](https://github.com/s-shan2580/dsa-practice/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/s-shan2580/dsa-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
+| [0904-fruit-into-baskets](https://github.com/s-shan2580/dsa-practice/tree/master/0904-fruit-into-baskets) |
 | [1624-largest-substring-between-two-equal-characters](https://github.com/s-shan2580/dsa-practice/tree/master/1624-largest-substring-between-two-equal-characters) |
 ## Two Pointers
 |  |
@@ -263,6 +265,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/s-shan2580/dsa-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0643-maximum-average-subarray-i](https://github.com/s-shan2580/dsa-practice/tree/master/0643-maximum-average-subarray-i) |
+| [0904-fruit-into-baskets](https://github.com/s-shan2580/dsa-practice/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/s-shan2580/dsa-practice/tree/master/1004-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
