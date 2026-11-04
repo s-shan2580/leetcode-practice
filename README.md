@@ -48,6 +48,7 @@
 | [0930-binary-subarrays-with-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/s-shan2580/dsa-practice/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/s-shan2580/dsa-practice/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1248-count-number-of-nice-subarrays](https://github.com/s-shan2580/dsa-practice/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/s-shan2580/dsa-practice/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1470-shuffle-the-array](https://github.com/s-shan2580/dsa-practice/tree/master/1470-shuffle-the-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/s-shan2580/dsa-practice/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -82,6 +83,7 @@
 | [0705-design-hashset](https://github.com/s-shan2580/dsa-practice/tree/master/0705-design-hashset) |
 | [0904-fruit-into-baskets](https://github.com/s-shan2580/dsa-practice/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/s-shan2580/dsa-practice/tree/master/1248-count-number-of-nice-subarrays) |
 | [1624-largest-substring-between-two-equal-characters](https://github.com/s-shan2580/dsa-practice/tree/master/1624-largest-substring-between-two-equal-characters) |
 ## Two Pointers
 |  |
@@ -156,6 +158,7 @@
 | [0258-add-digits](https://github.com/s-shan2580/dsa-practice/tree/master/0258-add-digits) |
 | [0263-ugly-number](https://github.com/s-shan2580/dsa-practice/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/s-shan2580/dsa-practice/tree/master/0268-missing-number) |
+| [1248-count-number-of-nice-subarrays](https://github.com/s-shan2580/dsa-practice/tree/master/1248-count-number-of-nice-subarrays) |
 | [1903-largest-odd-number-in-string](https://github.com/s-shan2580/dsa-practice/tree/master/1903-largest-odd-number-in-string) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/s-shan2580/dsa-practice/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Divide and Conquer
@@ -273,6 +276,7 @@
 | [0904-fruit-into-baskets](https://github.com/s-shan2580/dsa-practice/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/s-shan2580/dsa-practice/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/s-shan2580/dsa-practice/tree/master/1248-count-number-of-nice-subarrays) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -280,6 +284,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/s-shan2580/dsa-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/s-shan2580/dsa-practice/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/s-shan2580/dsa-practice/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/s-shan2580/dsa-practice/tree/master/1248-count-number-of-nice-subarrays) |
 ## Quicksort
 |  |
 | ------- |
